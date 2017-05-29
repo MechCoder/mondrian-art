@@ -1,7 +1,11 @@
+#!python3
+# -*- coding: utf8 -*-
+
 from itertools import cycle
 import matplotlib.pyplot as plt
 import matplotlib
 import numpy as np
+
 
 def generate(n_cuts=100, stop_time=np.inf, random_state=None,
              return_leaves=False):
@@ -81,6 +85,16 @@ def generate(n_cuts=100, stop_time=np.inf, random_state=None,
     for x, (y_l, y_u), d, val, _ in leaves:
         plt.fill_between(x, y_l, y_u, color=next(colors))
 
+    # Remove x and y ticks, useless for "art" figures
+    plt.xticks([])
+    plt.yticks([])
+
     if return_leaves:
         return plt, leaves
     return plt
+
+
+# Default behavior, if ran as a script, is to show one plot
+if __name__ == '__main__':
+    generate()
+    plt.show()
