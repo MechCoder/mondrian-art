@@ -4,9 +4,7 @@ Generate "modern art" using Mondrian Processes.
 
 ## Installation
 ```
-git clone https://github.com/MechCoder/mondrian_art
-cd mondrian_art
-sudo python3 setup.py install
+pip3 install mondrian-art
 ```
 
 ## Usage
@@ -23,6 +21,3 @@ plt.show()
 
 ## Reference
 Section 1 in https://arxiv.org/pdf/1507.05181.pdf
-
-Note: If you are a deep learning enthusiast, then this repo might be a disappointment for you because this is neither deep
-nor learning.
