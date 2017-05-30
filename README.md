@@ -8,8 +8,19 @@ It requires [Python 3](https://docs.python.org/3/), and can be installed from [P
 pip3 install mondrian-art
 ```
 
-## Usage
+> [![PyPI download total](https://img.shields.io/pypi/dt/mondrian-art.svg)](https://pypi.python.org/pypi/mondrian-art/)
+[![PyPI download month](https://img.shields.io/pypi/dm/mondrian-art.svg)](https://pypi.python.org/pypi/mondrian-art/)
+[![PyPI download week](https://img.shields.io/pypi/dw/mondrian-art.svg)](https://pypi.python.org/pypi/mondrian-art/)
+[![PyPI download day](https://img.shields.io/pypi/dd/mondrian-art.svg)](https://pypi.python.org/pypi/mondrian-art/)
 
+> [![PyPI version](https://badge.fury.io/py/mondrian-art.svg)](https://pypi.python.org/pypi/mondrian-art/)
+[![PyPI format](https://img.shields.io/pypi/format/mondrian-art.svg)](https://pypi.python.org/pypi/mondrian-art/)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/mondrian-art.svg)](https://pypi.python.org/pypi/mondrian-art/)
+[![PyPI implementation](https://img.shields.io/pypi/implementation/mondrian-art.svg)](https://pypi.python.org/pypi/mondrian-art/)
+[![PyPI status](https://img.shields.io/pypi/status/mondrian-art.svg)](https://pypi.python.org/pypi/mondrian-art/)
+
+## Usage
+From Python, use the fonction `generate` (with default options, or use custom options, see the source for more information):
 ```python
 from mondrian_art import generate
 plt = generate()
@@ -26,12 +37,16 @@ python3 mondrian_art/mondrian_art.py
 
 <img src="images/image1.png" width="300"/>  <img src="images/image2.png" width="300"/>
 
-## Reference
+## About
+### Reference
 Section 1 in [arXiv:1507.05181](https://arxiv.org/pdf/1507.05181.pdf).
 
-## Contributors
+### Contributors [![GitHub contributors](https://img.shields.io/github/contributors/MechCoder/mondrian-art.svg)](https://GitHub.com/MechCoder/mondrian-art/graphs/contributors/)
 1. [Manoj Kumar (MechCoder)](https://github.com/MechCoder/)
 2. [Lilian Besson (Naereen)](https://github.com/Naereen/)
 
-## License
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/MechCoder/mondrian-art/graphs/commit-activity)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+
+### License [![PyPI license](https://img.shields.io/pypi/l/mondrian-art.svg)](https://pypi.python.org/pypi/mondrian-art/)
 > [BSD 3](https://github.com/MechCoder/mondrian-art/blob/master/LICENSE.txt)
