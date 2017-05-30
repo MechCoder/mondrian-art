@@ -21,3 +21,6 @@ plt.show()
 
 ## Reference
 Section 1 in https://arxiv.org/pdf/1507.05181.pdf
+
+## Contributors
+1. Lilian Besson
